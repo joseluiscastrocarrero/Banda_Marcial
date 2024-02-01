@@ -11,13 +11,14 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #399eeba4;
+    background: #0d14eaa4;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 99px;
 }
+
 .contenedor-header header{
     max-width: 1100px;
     margin: auto;
@@ -26,10 +27,11 @@ html{
     align-items: center;
     padding: 15px 20px;
 }
+
 .contenedor-header header .logo a{
     font-family: 'Righteous';
-    font-size: 36px;
-    color: #1CB698;
+    font-size: 50px;
+    color: #eaedec;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -67,7 +69,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #22231c;
+    background-color: #151714;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -105,9 +107,14 @@ html{
     background-color: #1CB698;
 }
 .sobremi{
-    background-color: #1e2326;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(./img/guanenta.png );
+    background-size: cover;
+    height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -208,9 +215,13 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(./img/guanenta.png );
+    background-size: cover;
+    height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    display: flex;
+    align-items: center;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -358,9 +369,14 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
-    color: #fff;
     padding: 50px 20px;
+    background-color: #1e2326; 
+    color: #fff;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(./img/guanenta.png );
+    display: flex;
+    align-items: center;
+    background-size: cover;
 }
 .curriculum .contenido-seccion{
     max-width: 1100px;
@@ -464,9 +480,13 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(./img/guanenta.png );
+    background-size: cover;
+    height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    display: flex;
+    align-items: center;
 }
 .portfolio .contenido-seccion{
     max-width: 1100px;
@@ -485,9 +505,9 @@ html{
 }
 .portfolio .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    max-width: 300px;
     height: fit-content;
-    margin: 10px;
+    margin: 30px;
     cursor: pointer;
 }
 .portfolio .galeria .proyecto img{
@@ -522,9 +542,13 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(./img/contact_bg.png);
-    background-color: #1e2326;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(./img/guanenta.png );
+    background-size: cover;
+    height: 100vh;
     color: #fff;
-    padding: 50px 0;
+    display: flex;
+    align-items: center;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
